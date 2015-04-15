@@ -24,3 +24,11 @@ Navigate to a `.md` file without the `.md`. Profit!
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Changelog
+
+### v0.0.2
+* Add pygments highlighting
+
+### v0.0.1
+* Initial commit
