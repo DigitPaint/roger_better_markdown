@@ -769,3 +769,19 @@ body .markdown-body {
 .vg { color: #008080 } /* Name.Variable.Global */
 .vi { color: #008080 } /* Name.Variable.Instance */
 .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+
+/* ========== */
+/* = Mobile = */
+/* ========== */
+@media only screen and (max-width: 45em){
+
+    body{
+      width: auto;
+      border: none;
+    }
+
+    body .markdown-body {
+      padding: 20px;
+    }
+}
