@@ -27,6 +27,12 @@ Navigate to a `.md` file without the `.md`. Profit!
 
 ## Changelog
 
+### v0.0.4
+* Make documentation full width when printing
+
+### v0.0.3
+* Make documentation readable on smaller screens
+
 ### v0.0.2
 * Add pygments highlighting
 
