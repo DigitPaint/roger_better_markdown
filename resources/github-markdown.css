@@ -26,6 +26,11 @@ THE SOFTWARE.
 
 */
 
+/*
+  01-12-2015
+    added media query for print;
+ */
+
 body {
   width: 45em;
   border: 1px solid #ddd;
@@ -784,4 +789,18 @@ body .markdown-body {
     body .markdown-body {
       padding: 20px;
     }
+}
+
+/* ========= */
+/* = Print = */
+/* ========= */
+@media print {
+  body {
+    width: auto;
+    border: 0;
+  }
+
+  body .markdown-body {
+    padding: 20px;
+  }
 }
