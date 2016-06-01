@@ -35,6 +35,12 @@ end
 
 # https://github.com/slim-template/slim/issues/192#issuecomment-2369670
 class CustomTiltRender < Tilt::RedcarpetTemplate
+  # Deprecated but for backwars support
+  self.default_mime_type = "text/html"
+
+  # Set default mime type for correct extension resolving
+  metadata[:default_mime_type] = "text/html"
+
   def options
     {
       fenced_code_blocks: true,
